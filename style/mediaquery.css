@@ -1,0 +1,15 @@
+@media (max-width: 448px) {
+  .quote-box #quote {
+    font-size: 1.12rem;
+  }
+
+  .author-box p {
+    font-size: 1rem;
+  }
+
+  .options {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

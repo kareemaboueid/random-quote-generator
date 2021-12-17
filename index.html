@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- primary tags -->
+  <meta charset="UTF-8">
+  <title>KM - quote generator</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- app stylesheet -->
+  <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+  <main>
+    <h1 class="text-center p-tb-2">quote of the day</h1>
+    <div class="container">
+      <div class="card p-rl-3 p-tb-0-5">
+
+        <div class="quote-box p-tb-1">
+          <i class="ri-double-quotes-l"></i>
+          <p class="text-center" id="quote"></p>
+          <i class="ri-double-quotes-r"></i>
+        </div>
+
+        <div class="author-box text-right p-tb-1">
+          <p>&#8212; <span id="author">Author Name</span></p>
+        </div>
+
+        <div class="options p-tb-1">
+          <div class="features">
+            <ul>
+              <!-- opt 1 -->
+              <li class="feature-item" title="listen to quote">
+                <button id="listen" class="btn">
+                  <i class="ri-volume-down-fill"></i>
+                  <i class="hidden ri-check-line"></i>
+                </button>
+              </li>
+              <!-- opt 2 -->
+              <li class="feature-item" title="copy the quote">
+                <button id="copy" class="btn">
+                  <i class="ri-file-copy-fill"></i>
+                  <i class="hidden ri-check-line"></i>
+                </button>
+              </li>
+              <!-- opt 3 -->
+              <li class="feature-item" title="tweet the quote">
+                <button id="tweetit" class="btn">
+                  <i class="ri-twitter-fill"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="generate-quote">
+            <button id="generateQuote" class="generate-quote-btn btn p-0-5">New Quote</button>
+          </div>
+        </div>
+
+      </div>
+      <p class="cr text-center">coded by <a href="https://twitter.com/KareemAboeid">@KareemAboeid</a> - <a
+          href="https://github.com/KareemAbo3id"><i class="ri-github-fill"></i></a></p>
+    </div>
+  </main>
+
+  <!-- app script -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

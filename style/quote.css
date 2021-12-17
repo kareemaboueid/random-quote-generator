@@ -1,0 +1,33 @@
+.quote-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quote-box i {
+  position: relative;
+  font-size: calc(1.2rem + 2vw);
+  z-index: 1;
+  color: var(--prim-color-300);
+}
+
+.quote-box i:first-child {
+  margin: 0.3rem 1rem 0 0;
+}
+
+.quote-box i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 0.3rem 1rem;
+}
+
+.quote-box #quote {
+  font-size: 1.4rem;
+}
+
+.author-box {
+  display: flex;
+  justify-content: flex-end;
+  font-style: italic;
+  font-weight: 500;
+}

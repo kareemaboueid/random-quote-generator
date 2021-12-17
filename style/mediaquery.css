@@ -1,4 +1,8 @@
 @media (max-width: 448px) {
+  .quote-box {
+    padding: 0;
+  }
+
   .quote-box #quote {
     font-size: 1.12rem;
   }
